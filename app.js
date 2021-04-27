@@ -23,6 +23,7 @@ app.use(function (req, res, next) {
     "Content-Security-Policy",
     "script-src 'self' https://archive.org"
   );
+
   return next();
 });
 
